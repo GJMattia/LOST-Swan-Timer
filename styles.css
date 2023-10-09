@@ -1,0 +1,144 @@
+html {
+    font-size: 62.5%;
+    background-color: black;
+}
+
+
+/*      Font    */
+
+
+@font-face{
+    font-family:"DS-DIGIT";
+    src: url("/fonts/DS-DIGIT.TTF") format("TTF");
+}
+
+
+/*  Page Contents   */
+
+.container{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  Timer Elements  */
+
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 62rem;
+    height: 25rem;
+    background: linear-gradient(rgb(63, 63, 63), rgb(121, 121, 121));
+    border: 2px solid black;
+}
+
+.digit{
+width: 10rem;
+height: 15rem;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 12rem;
+font-family: impact;
+}
+
+.min{
+    background: linear-gradient(rgb(0, 0, 0), rgb(43, 43, 43));
+color:white;
+}
+
+.sec{
+    background: linear-gradient(rgb(255, 255, 255), rgb(141, 141, 141));
+    color:black;
+}
+
+/*  Input field and System notes    */
+
+.input{
+    position: relative;
+    bottom:6rem;
+    left:1.7rem;
+    height: 5rem;
+    width: 60rem;
+    color: lawngreen;
+    background-color: black;
+border: 0;
+font-size: 4rem;
+font-family: 'DS-Digital';
+}
+
+.system{
+    color: lawngreen;
+    background-color: black;
+   width: 70rem;
+   
+   font-family: 'DS-Digital';
+    font-size: 2rem;
+}
+
+.input:focus {
+    outline:none;
+}
+
+/*  Timer Zero Classes */
+
+.minzero{
+    color: darkred;
+    font-size:9rem;
+}
+
+.seczero{
+    background: linear-gradient(rgb(90, 0, 0), rgb(218, 0, 0));
+    color: black;
+    font-size:9rem;
+}
+
+.point{
+    position: relative;
+    right: 30rem;
+    top:1.1rem;
+    font-size: 3rem;
+    color:lawngreen;
+    font-weight: 900;
+    z-index: 100;
+}
+
+/* Partner Div  */
+
+
+.workspace{
+    font-family: 'DS-Digital';
+    display: flex;
+    flex-direction: row;
+position: relative;
+bottom:4rem;
+width:62rem;
+border: 1px solid lawngreen;
+/* border: 1px solid lawngreen; */
+}
+
+
+.partnerTitle{
+    font-size: 2.5rem;
+    color:lawngreen;
+    font:1rem;
+    margin: 1.5rem;
+}
+
+.person{
+    position: relative;
+    left:.5rem;
+    font-size:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:lawngreen;
+    margin:1rem;
+    width:18rem;
+    border: 1px solid lawngreen;
+}
