@@ -12,6 +12,8 @@
 
 ## Getting Started
 
+- You can help push the button here: [Dharma Swan Timer](https://gjmattia.github.io/LOST-Swan-Timer/)
+
 - The code is '4 8 15 16 23 42'.
 - If you are not a shift partner, do nothing.
 - If you are, you must wait until there are 20 minutes left to enter the code.
